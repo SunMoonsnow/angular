@@ -1,0 +1,14 @@
+.pageNum{
+	width: 30px;
+    height: 34px;
+    display: inline;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.pagination>li {
+    margin-right: 8px;
+}
+.num {
+	font-style: normal;
+	color:red;
+}

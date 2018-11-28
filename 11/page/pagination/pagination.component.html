@@ -1,0 +1,51 @@
+
+<div class="row">
+	<div class="col-sm-5" style="overflow: hidden;">
+		<div class="dataTables_info" id="example1_info" role="status" aria-live="polite" style="float: left;box-sizing: border-box;padding-left: 27px;">
+			<div style="display: inline;">共
+				<span>{{pageParams.totalNum}}</span>条记录，每页10条，当前
+				<i class="num">{{pageNo}}</i>/<span>{{pageParams.totalpage}}</span>
+			</div>
+
+		</div>
+	</div>
+	<div class="col-sm-7">
+		<div class="dataTables_paginate paging_simple_numbers" id="example1_paginate" style="margin-top: -24px;">
+			<ul class="pagination">
+
+				<li class="paginate_button previous disable" id="example_previous">
+					<a aria-controls="example1" 
+						data-dt-idx="1" tabindex="0" 
+						[routerLink]="['./']" 
+						(click)="prePage()"
+						[queryParams]="{pageNo:pageNo}">上一页
+					</a>
+				</li>
+
+				<li>
+					跳至
+					<input class="pageNum" 
+						[routerLink]="['./']" 
+						(keyup)="gotoPage($event)"
+
+						[queryParams]="{pageNo:pageNo}"
+						>页
+				</li>
+
+				<li class="paginate_button next" id="next">
+					<a aria-controls="example1" 
+						data-dt-idx="2" tabindex="0"
+						[routerLink]="['./']" 
+						(click)="nextPage()"
+						[queryParams]="{pageNo:pageNo}">下一页
+					</a>
+				</li>
+
+				
+
+			</ul>
+
+
+		</div>
+	</div>
+</div>
