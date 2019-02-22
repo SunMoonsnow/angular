@@ -1,0 +1,231 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+s s s s td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0
+}
+
+html,
+body,
+form,
+fieldset,
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  -webkit-text-size-adjust: none
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  display: block;
+  clear: both;
+}
+
+a {
+  background: transparent;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  color: #1a1a1a;
+  cursor: pointer
+}
+
+a:active {
+  outline: 0;
+}
+
+a:active {
+  color: #3990e6;
+}
+
+li {
+  list-style: none
+}
+
+html {
+  font-family: 'Microsoft YaHei', "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+}
+
+body {
+  font-size: 0.28rem;
+  margin: 0;
+}
+
+.head {
+  width: 100%;
+  height: 12.65rem;
+  /*background: url('../img/bg.png') no-repeat;*/
+  background-size: 100% 100%;
+  box-sizing: border-box;
+  padding-top: 0.7rem;
+  text-align: center;
+}
+
+.title {
+  color: #3990e6;
+  font-size: 1.58rem;
+}
+
+.titles {
+  color: #777777;
+  font-size: 1.36rem;
+}
+
+.phone {
+  width: 11.75rem;
+  /* height: 8rem; */
+  margin: 0 auto;
+  margin-top: 0.3rem;
+}
+
+.phone>img {
+  width: 100%;
+  height: 100%;
+}
+
+.h-button {
+  width: 9.15rem;
+  /* margin:  0 auto; */
+  margin-top: 0.8rem;
+  display: inline-block;
+}
+
+.h-button img {
+  width: 100%;
+  height: 100%;
+}
+
+.doc {
+  padding: 0.4rem;
+  padding-top: 0.4rem;
+}
+
+.d-title {
+  color: #777777;
+  margin: 0.4rem 0;
+}
+
+.d-title>i {
+  font-size: 0.34rem;
+  font-weight: bold;
+  color: #3990e6;
+  margin-right: 0.1rem;
+}
+
+.d-img {
+  width: 12.15rem;
+  margin: 0 auto;
+}
+
+.d-img>img {
+  width: 100%;
+}
+
+.tiaodong {
+  width: 3.79rem;
+  margin: 0 auto;
+  margin-top: -0.3rem;
+  animation: bounce-1 1.5s linear infinite alternate;
+}
+
+.tiaodong>img {
+  width: 100%;
+}
+
+@keyframes bounce-1 {
+  50% {
+    transform: translate(0px, 10%);
+  }
+
+  100% {
+    transform: translate(0px, -10%);
+  }
+}
+
+.sjzimg {
+  width: 6.2rem;
+}

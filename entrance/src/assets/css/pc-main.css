@@ -1,0 +1,463 @@
+@charset "utf-8";
+/*全局 start*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0
+}
+
+html,
+body,
+form,
+fieldset,
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  -webkit-text-size-adjust: none
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  display: block;
+  clear: both;
+}
+
+a {
+  background: transparent;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  color: #1a1a1a;
+  cursor: pointer
+}
+
+a:active {
+  outline: 0;
+}
+
+a:active {
+  color: #3990e6;
+}
+
+li {
+  list-style: none
+}
+
+html {
+  font-family: 'Microsoft YaHei', "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+  font-size: 18px;
+  background: #ffffff;
+  color: #3d4145;
+}
+
+.both::after {
+  display: block;
+  width: 0;
+  height: 0;
+  clear: both;
+  content: '';
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.hide {
+  display: none;
+}
+
+.jtc {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  line-height: 100px;
+  text-align: center;
+  background: rgba(000, 000, 000, 0.5);
+  transition: 0.3s;
+}
+
+.jtc:hover {
+  transform: scale(1.1);
+}
+
+/*全局 end*/
+
+.head {
+  width: 100%;
+  height: 865px;
+  /*background: url('../img/banner1.png') center center no-repeat;*/
+  box-sizing: border-box;
+  padding-bottom: 140px;
+  position: relative;
+  transition: 1s;
+}
+
+.top {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+  line-height: 79px;
+}
+
+.checkeds {
+  width: 100%;
+  position: absolute;
+  bottom: -43px;
+  text-align: center;
+}
+
+.code {
+  position: relative;
+  bottom: 25px;
+}
+
+.downnbox {
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0;
+  width: 191px;
+  height: 71px;
+}
+
+#buttona {
+  background: url("../img/android-c.png") no-repeat;
+  margin-bottom: 30px;
+}
+
+#buttona:hover {
+  background: url("../img/android.png") no-repeat;
+}
+
+#buttonb {
+  background: url("../img/iphone-c.png") no-repeat;
+}
+
+#buttonb:hover {
+  background: url("../img/iphone.png") no-repeat;
+}
+
+/* .downnbox:hover{
+    transform: scale(1.1);
+} */
+
+.logo {
+  float: left;
+}
+
+.logo>img {
+  vertical-align: middle;
+}
+
+.top-nav {
+  float: right;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.hg {
+  width: 2px;
+  display: inline-block;
+  height: 25px;
+  font-size: 26px;
+  margin: 0 10px;
+}
+
+.banner-box {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  line-height: 865px;
+  width: 90px;
+  z-index: 998;
+}
+
+.left-box {
+  left: 30px;
+}
+
+.right-box {
+  right: 30px;
+}
+
+.centerbox {
+  display: inline-block;
+  background: rgba(000, 000, 000, 0.5);
+  width: 80px;
+  height: 43px;
+  line-height: 43px;
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+
+.boxser {
+  animation: bounce-1 1s linear infinite alternate;
+}
+
+@keyframes bounce-1 {
+  50% {
+    transform: translate(0px, 20%);
+  }
+
+  100% {
+    transform: translate(0px, -20%);
+  }
+}
+
+/* .banner-box>img{
+    vertical-align: middle;
+} */
+
+.head-body {
+  position: absolute;
+  bottom: 140px;
+  left: 0;
+  width: 100%;
+}
+
+.head-bodys {
+  margin: 0 auto;
+  width: 1200px;
+  color: #fff;
+}
+
+.head-title {
+  font-size: 72px;
+  margin-top: 50px;
+}
+
+.head-titles {
+  font-size: 36px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 140px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.bot-nav {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  padding-top: 30px;
+}
+
+.checked-nav {
+  width: 250px;
+  color: #b2b5c2;
+  border-bottom: 2px solid #b2b5c2;
+  height: 60px;
+  line-height: 60px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-indent: 50px;
+}
+
+#khd {
+  background: url('../img/phones-c.png') 10px center no-repeat;
+}
+
+#khd:hover {
+  background: url('../img/phones-c.png') 10px center no-repeat;
+}
+
+#sjd {
+  background: url('../img/url.png') 10px center no-repeat;
+}
+
+#sjd:hover {
+  background: url('../img/url.png') 10px center no-repeat;
+}
+
+.checked-nav:hover {
+  color: #fff;
+}
+
+.checked {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.body {
+  width: 100%;
+}
+
+.row {
+  width: 100%;
+  height: 613px;
+}
+
+.row:nth-child(even) {
+  background: #f4f8fd;
+}
+
+.rowbox {
+  width: 1200px;
+  height: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.img-box {
+  line-height: 613px;
+}
+
+.img-box>img {
+  vertical-align: middle;
+}
+
+.txt-box {
+  line-height: 613px;
+}
+
+.center-box {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 80px;
+}
+
+.title-c {
+  font-size: 72px;
+  color: #525662;
+}
+
+.title-v {
+  font-size: 36px;
+  color: #525662;
+  margin-bottom: 30px;
+}
+
+.footer {
+  height: 60px;
+  line-height: 60px;
+  background: #3d4145;
+  color: #fff;
+  text-align: center;
+}
+
+.qrcode {
+  width: 171px;
+  height: 171px;
+  padding: 25px;
+  background-image: url(../img/qrcode.png);
+}
+
+.codees {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  /* float: left; */
+  background-image: none;
+  /* border-radius: 5px; */
+  display: inline-block;
+}
+
+.xianlu {
+  margin-top: 30px;
+  display: inline-block;
+  text-align: center;
+}
